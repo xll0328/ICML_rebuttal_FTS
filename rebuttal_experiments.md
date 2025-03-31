@@ -1,7 +1,7 @@
 # Rebuttal Experiments
 
 
-### Table 1 Caption: ***
+### Table 1 Caption:Performance comparison of TimeSieve on the UCI Retail dataset with MAE as the evaluation metric. The results show the effect of different conditions: NP (No Perturbation), NPO (No Perturbation with Optimization), IP (Input Perturbation), and IPO (Input Perturbation with Optimization). For instance, at horizon 192, the model's error increases from 0.461 (NP) to 0.381 (IP). These results indicate that FTS consistently stabilizes predictions and improves overall accuracy in transactional data scenarios.  ***
 
 
 |     | NP    | IP    | NPO   | IPO   |
@@ -14,7 +14,7 @@
 
 ---
 
-### Table 2 Caption: ***
+### Table 2 Caption: MAE results of TimeXer on the Wiki dataset under four conditions: NP (No Perturbation), IP (Input Perturbation), NPO (No Perturbation with Optimization), and IPO (Input Perturbation with Optimization). The results show that FTS consistently improves robustness across all horizons, reducing the performance drop caused by input noise—for example, at horizon 192, the error decreases from 0.445 (IP) to 0.331 (IPO).***
 
 
 |     | NP    | IP    | NPO   | IPO   |
@@ -27,7 +27,7 @@
 
 ---
 
-### Table 3 Caption: ***
+### Table 3 Caption: MAE results of TimeSieve under the newly introduced trend-based perturbation. NP and IP refer to performance without and with perturbation, while NPO and IPO include optimization. FTS effectively reduces the impact of trend drift—for example, at horizon 96, optimization lowers the error from 0.348 (IP) to 0.317 (IPO), demonstrating improved robustness under temporal shifts.***
 
 
 |     | NP    | IP    | NPO   | IPO   |
@@ -39,7 +39,7 @@
 
 
 ---
-### Table 3 Caption: ***
+### Table 3 Caption: Evaluation on the ETTh1 dataset using Quantile Loss (QL) and Wasserstein Distance (WD) under different conditions. QL-NP and QL-NPO represent uncertainty estimation without and with optimization; WD-IP and WD-IPO measure distributional robustness under input perturbation. FTS consistently improves both metrics—for example, QL drops from 0.252 to 0.237 at horizon 192, and WD improves from 0.247 to 0.240—demonstrating enhanced robustness across uncertainty and shift-aware evaluations.***
 
 
 |     | QL-NP | WD-IP | QL-NPO | WD-IPO |
